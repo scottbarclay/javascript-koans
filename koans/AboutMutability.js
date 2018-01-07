@@ -49,7 +49,7 @@ describe("About Mutability", function() {
       this.getFullName  = function() { return fullName; };
     }
     var aPerson = new Person ("John", "Smith");
-
+    console.log(aPerson);
     aPerson.firstname = "Penny";
     aPerson.lastname  = "Andrews";
     aPerson.fullName  = "Penny Andrews";
